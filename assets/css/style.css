@@ -1,0 +1,58 @@
+body {
+    background-image: url(../images/giphwall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#animal-input {
+    height: 30px;
+    width: 250px;
+}
+
+input {
+    font-size: 25px;
+}
+
+input[type='submit'] {
+    background: orangered;
+    border: 0;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+.animal-btn {
+    background: yellow;
+    border: 0;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.animal-btn:hover {
+    transform: scale(1.25) perspective(1px);
+}
+
